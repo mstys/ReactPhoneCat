@@ -78,8 +78,8 @@ class PhoneList extends Component {
 
     return (
       <div className="phoneList">
-        <SearchBox onChange={this.updateListBySearchBox}/>
-        <SortDirection selected={this.updateListBySortBox}/>
+        <SearchBox onChange={this.updateListBySearchBox} />
+        <SortDirection selected={this.updateListBySortBox} />
 
         {sortedPhones}
       </div>

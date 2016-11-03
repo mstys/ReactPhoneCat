@@ -4,3 +4,16 @@
   width: 100%;
   border-radius: 0;
 }
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.phoneDetails {
+  display: block;
+}
