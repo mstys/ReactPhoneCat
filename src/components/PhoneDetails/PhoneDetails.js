@@ -74,4 +74,8 @@ class PhoneDetails extends Component {
   }
 }
 
+PhoneDetails.PropTypes = {
+  phoneId: React.PropTypes.number.isRequired,
+}
+
 export default PhoneDetails;

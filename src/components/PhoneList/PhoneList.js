@@ -49,7 +49,7 @@ class PhoneList extends Component {
   }
 
   render() {
-    const sortedPhones = [];
+    let sortedPhones = [];
 
 
     // find phones by name

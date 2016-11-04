@@ -19,4 +19,10 @@ class PhoneListRow extends Component {
   }
 }
 
+
+PhoneListRow.PropTypes = {
+  phoneData: React.PropTypes.object.isRequired
+}
+
+
 export default PhoneListRow;
